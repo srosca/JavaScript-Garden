@@ -2,7 +2,6 @@
     "title": "JavaScript Garden",
     "langTitle": "JavaScript Garden in English",
     "description": "A Guide to JavaScript's Quirks and Flaws.",
-
     "title": "JavaScript Garden",
     "langTitle": "JavaScript Garden in Romana",
     "description": "Un ghid pentru particularitatile si defectele JavaScript.",
@@ -14,6 +13,12 @@
             "articles": ["index"]
         },
         {
+            "title": "Introducere",
+            "dir": "intro",
+            "articles": ["index"]
+        },
+
+        {
             "title": "Objects",
             "dir": "object",
             "articles": [
@@ -23,6 +28,17 @@
                 "forinloop"
             ]
         },
+        {
+            "title": "Obiecte",
+            "dir": "object",
+            "articles": [
+                "general",
+                "prototype",
+                "hasownproperty",
+                "forinloop"
+            ]
+        },
+
         {
             "title": "Functions",
             "dir": "function",
@@ -36,11 +52,43 @@
             ]
         },
         {
+            "title": "Functii",
+            "dir": "function",
+            "articles": [
+                "general",
+                "this",
+                "closures",
+                "arguments",
+                "constructors",
+                "scopes"
+            ]
+        },
+
+        {
             "title": "Arrays",
             "dir": "array",
             "articles": [
                 "general",
                 "constructor"
+            ]
+        },
+        {
+            "title": "Arrays",
+            "dir": "array",
+            "articles": [
+                "general",
+                "constructor"
+            ]
+        },
+
+        {
+            "title": "Types",
+            "dir": "types",
+            "articles": [
+                "equality",
+                "typeof",
+                "instanceof",
+                "casting"
             ]
         },
         {
@@ -53,6 +101,7 @@
                 "casting"
             ]
         },
+
         {
             "title": "Core",
             "dir": "core",
@@ -61,6 +110,24 @@
                 "undefined",
                 "semicolon",
                 "delete"
+            ]
+        },
+        {
+            "title": "Core",
+            "dir": "core",
+            "articles": [
+                "eval",
+                "undefined",
+                "semicolon",
+                "delete"
+            ]
+        },
+
+        {
+            "title": "Other",
+            "dir": "other",
+            "articles": [
+                "timeouts"
             ]
         },
         {
