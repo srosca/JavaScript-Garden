@@ -4,11 +4,10 @@ Since the `Array` constructor is ambiguous in how it deals with its parameters,
 it is highly recommended to use the array literal - `[]` notation - 
 when creating new arrays.
 
-##Constructorul `Array`  
+##Constructorul `Array`
 
-Deoarece constructorul `Array`  este neclar in felul in care foloeste parametrii,
-este recomandat sa fie folosita notarea array literal - `[]`
-pentru a creea un array nouwhen creating new arrays.
+Deoarece pentru constructorul `Array`  modul de folosire al parametrilor este ambiguu,
+este recomandata folosirea notatiei literale - `[]` - pentru a crea un sir nou.
 
     [1, 2, 3]; // Result: [1, 2, 3]
     new Array(1, 2, 3); // Result: [1, 2, 3]
@@ -31,9 +30,9 @@ noted that **only** the `length` property of the new array will be set this way;
 the actual indexes of the array will not be initialized. 
 
 In cazul in care constructorul `Array` este apelat cu un singur argument
-si acel argument este un `Numar`, contructorul va returna un array *gol*
-cu protietatea `length` - lungimea setata cu valoarea argumentului. Trebuie tinunt cont ca
-**doar** lungimea `length` va fi setata in acest fel; index din array nu vor fi initializati.
+si acel argument este de tip `Number`, contructorul va returna un sir *gol*
+cu lungimea, proprietatea `length`, egala cu valoarea argumentului. Trebuie tinunt cont ca
+**doar** proprietatea `length` va fi setata in acest fel; elementele din sir nu vor fi initializate.
  
 
     var arr = new Array(3);
@@ -47,7 +46,7 @@ cu protietatea `length` - lungimea setata cu valoarea argumentului. Trebuie tinu
 Being able to set the length of the array in advance is only useful in a few
 cases, like repeating a string, in which it avoids the use of a loop.
 
-Posibilitatea de a seta lungimea unui array in avans este utila doar in cateva
+Posibilitatea de a seta lungimea unui sir in avans este utila doar in cateva
 cazuri, cum ar fi repetarea unui string, caz in care se evita folosirea unui loop.
 
     new Array(count + 1).join(stringToRepeat);
@@ -61,5 +60,5 @@ readability.
 
 ### Concluzii
 
-Notarea literala este preferata in locul constructorului Array. Aceasta este mai scurta, sintaxa este mai clara,
+Notatia literala este preferata in locul constructorului Array. Aceasta este mai scurta, sintaxa este mai clara,
 si codul este mai usor de citit.
